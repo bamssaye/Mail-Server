@@ -1,0 +1,18 @@
+{
+    "headers": {
+        "Received": "from [7UA] (unknown)\n\tby geopod-ismtpd-5 (SG) with HTTP\n\tid VhjREoluS5e4kShJIFg1Ww\n\t[DATE]",
+        "Importance": "High",
+        "Subject": "[SUBJECT]",
+        "MIME-Version": "1.0",
+        "Content-Type": "multipart/alternative;boundary=\"_[33AN],[10N]\"",
+        "Date": "[DATE]",
+        "From": "[FNAME] <noreplay_info.[3LA]@domain.com>",
+        "Message-ID": "<1d04480c[EID]efc2e7c4492fe4a04320828f3dd.[15N]@mail9.domain.com>"
+    },
+    "dkim_headers": [
+        "From",
+        "To",
+        "Subject"
+    ]
+}
+
