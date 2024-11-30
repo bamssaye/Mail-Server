@@ -99,7 +99,7 @@ Utility functions for:
 1. Configure your settings:
 ```bash
 # Setup SMTP servers
-echo "smtp.server.com:587:username:password" > info/smtp.txt
+echo "username|password|PORT|smtp.server.com" > info/smtp.txt
 
 # Add recipient emails
 echo "recipient@example.com" > Msg/emails-insta.txt
@@ -142,8 +142,7 @@ Errors are logged to:
 - Required packages:
   ```
   dnspython
-  pysocks
-  cryptography
+  dkimpy
   ```
 
 Install dependencies:
